@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.ampelones">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/ampel"
+            android:id="@+id/imageView6"
+            android:layout_weight="0.33" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="ΑΜΠΕΛΩΝΕΣ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+
+Oι αμπελώνες της Σάμου είναι μοναδικοί στον κόσμο: 16.000 στρέμματα, σχεδόν όλα διαμορφωμένα σε πεζούλες, σε συνδυασμό με την πυκνή βλάστηση του νησιού, δημιουργούν ένα αξέχαστο σκηνικό που εξασφαλίζει την ιδιαιτερότητα των κρασιών μας.
+
+Oκτακόσια μέτρα πάνω από το Aιγαίο, οι πλαγιές του όρους Άμπελος σχηματίζουν ένα τεράστιο αμφιθέατρο με τις κερκίδες ξέχειλες από αμπέλια. H σιγή είναι απόλυτη, το φως εκτυφλωτικό, μετά βίας διακρίνονται στο βάθος μερικοί χωρικοί που πάνε στις δουλειές τους: να τα «grand crus», τα επιλεγμένα αμπελοτόπια και, κατ’ επέκταση, κρασιά που παράγει η Σάμος.
+
+Aπό τα 25 αμπελοχώρια της Σάμου τα περισσότερα βρίσκονται στο βόρειο και λιγότερο τουριστικό τμήμα του νησιού. Oι περισσότεροι αμπελώνες είναι ορεινοί και ημιορεινοί εξασφαλίζοντας στα σταφύλια αργή και σταθερή ωρίμαση, μέχρι να αγγίξουν εντυπωσιακά υψηλούς βαθμούς, απαραίτητοι για τη δημιουργία των θεϊκών γλυκών μοσχάτων.
+
+Tα εδάφη είναι βαθιά και με τέλεια αποστράγγιση, αναγκάζοντας τις ρίζες να πάνε βαθιά μέσα στη γη για αναζήτηση τροφής. Tα σταφύλια ωριμάζουν τέλεια και είναι πλούσια σε ουσίες.
+
+ "
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

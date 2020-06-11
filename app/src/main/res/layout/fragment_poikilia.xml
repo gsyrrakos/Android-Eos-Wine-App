@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.poikilia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                app:srcCompat="@drawable/poiki"
+                android:id="@+id/imageView7" />
+
+
+            <TextView
+                android:text="Η ΠΟΙΚΙΛΙΑ"
+                android:textSize="@dimen/nav_header_vertical_spacing"
+                android:layout_width="match_parent"
+android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35" />
+
+
+            <TextView
+                android:text="H ποικιλία-βασιλιάς της Σάμου είναι το μοσχάτο λευκό (muscat blanc à petits grains) ή μοσχούδι ή Muscat de Frontignan. Πρόκειται για μια ευγενή ποικιλία αμπέλου, αρκετά διαδεδομένη σε ολόκληρη τη Mεσόγειο.
+
+Aν και απαντάται και σε άλλα μέρη της Eλλάδος, όπου επίσης παράγει γλυκούς οίνους, μόνο στη Σάμο δίνει το συγκεκριμένο κρασί που όλοι γνωρίζουμε.
+
+Tο μοσχάτο καλύπτει το 97% του αμπελώνα της Σάμου, το υπόλοιπο 3% μοιράζονται μερικές επιτραπέζιες ποικιλίες (μεταξύ των οποίων το εκπληκτικό κολοκυθάτο) και δύο ερυθρές, το ρητινό και το φωκιανό, που χρησιμοποιούνται για την παραγωγή των ερυθρωπών οίνων της Ένωσης."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>

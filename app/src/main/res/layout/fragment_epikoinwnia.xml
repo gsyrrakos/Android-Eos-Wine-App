@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.epikoinwnia">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/net"
+                    android:id="@+id/imageView8" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    android:text="ΕΠΙΚΟΙΝΩΝΙΑ                                                                 "
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ένωση Οινοπ/κών Συνεταιρισμών Σάμου, Μαλαγάρι, 83100, Σάμος Γραμματεία: 22730-87511
+"
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Αγορά Εσωτερικού: Τηλ: 6940 273 831, 22730 87586                                                   "
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Αγορά Εξωτερικού: Τηλ: 22730 87541                                                                  "
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text=" Τμήμα Marketing: Τηλ: 6937 010 141, 22730 8754,Φαξ: 22730-23907, e-mail: info@samoswine.gr  "
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/editText2"
+                    android:layout_alignBottom="@+id/editText2"
+                    android:layout_alignParentLeft="true"
+                    android:text="Subject:" />
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText2"
+                    android:layout_below="@+id/editText2"
+                    android:layout_marginTop="28dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/editText3"
+                    android:layout_alignBottom="@+id/editText3"
+                    android:layout_alignParentLeft="true"
+                    android:text="Message:" />
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText1"
+                    android:layout_below="@+id/editText1"
+                    android:layout_marginTop="18dp"
+                    android:ems="10" />
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/editText3"
+                    android:layout_below="@+id/editText3"
+                    android:layout_marginLeft="76dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Send" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

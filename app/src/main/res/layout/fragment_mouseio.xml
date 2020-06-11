@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.mouseio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/mouseio"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:text="ΜΟΥΣΕΙΟ ΣΑΜΙΑΚΟΥ ΟΙΝΟΥ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="Δεν πρόκειται για ένα «νεκρό», κουραστικό χώρο παλιομοδίτικης αισθητικής και λειτουργίας. Το Μουσείο Σαμιακού Οίνου, που εγκαινιάστηκε το καλοκαίρι του 2005, είναι ένας «ζωντανός» χώρος εικονικής ιστορικής πραγματικότητας για το σαμιακό κρασί και την Ένωση Ονοποιητικών Συνεταιρισμών Σάμου.
+
+Αρχικά ιδιωτικό οινοποιείο και αργότερα αποθήκη και βαρελοποιείο της Ένωσης, το κτήριο του μουσείου αποτελεί «ζωντανό» έκθεμα, όντας «μπολιασμένο» με το σαμιακό Μοσχάτο και τα κρασιά του. Ακόμα και οι μεγάλες ξύλινες δεξαμενές, εκθέματα σήμερα του μουσείου, ήταν κάποτε χρηστικές.
+
+Η διαρρύθμισή του, αποτέλεσμα σύγχρονης μουσειακής επιστήμης, ταξιδεύει γλαφυρά στο χρόνο, κερδίζοντας, αλλά αφήνοντας ξεκούραστο τον επισκέπτη. Η παραδοσιακή οινοποίηση, τα εργαλεία, οι δεξαμενές της και τα όργανα χημείου, αλλά και η κατασκευή βαρελιών, ζωντανεύουν, μέσω εκθεμάτων που φτάνουν σε βάθος χρόνου τον αιώνα. Έγγραφα, βραβεία, φιάλες οίνου, φωτογραφίες και αντικείμενα γραφείου συμπληρώνουν το ιστορικό παζλ. Κορυφαίας έμπνευσης είναι η αναπαράσταση της καλλιέργειας των αμπελιών σε πεζούλες (όπως συνηθίζεται στο νησί), που απεικονίζει πως φυτρώνει και αναπτύσσεται το αμπέλι μέχρι την στιγμή του τρύγου. Δεν λείπουν και οι κάβες, μια βαρελιών και μία φιαλών και μάλιστα εν χρήσει, προσθέτοντας ακόμα μεγαλύτερη ζωντάνια στο χώρο, συνδέοντάς τον με το παρόν.
+
+Στο Μουσείο Οίνου λειτουργεί εξοπλισμένος συνεδριακός χώρος, για χρήση από την Ένωση Ονοποιητικών Συνεταιρισμών Σάμου ή άλλους φορείς.
+
+Χορτασμένος από ιστορία, αλλά «διψασμένος» για κρασί ο επισκέπτης, μπορεί, τέλος, να δοκιμάσει ή και να αγοράσει τα κρασιά της ΕΟΣΣ, στο ειδικό κατάστημα του Μουσείου."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="0.90"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

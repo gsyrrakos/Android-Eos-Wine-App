@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.proionta">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/eos2"
+            android:id="@+id/imageView9" />
+
+        <TextView
+            android:text="ΠΡΟΪΟΝΤΑ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="Το μοσχάτο κρασί SAMOS παράγεται από το ομώνυμο σταφύλι, την περίφημη ποικιλία Μικρόρωγο Μοσχάτο Λευκό Σάμου, που καλλιεργείται στις πλαγιές του όρους Άμπελος, σε παραδοσιακές αναβαθμίδες (πεζούλες) μέχρι του ύψους των 900 μέτρων και με ελεγχόμενη, χαμηλή, στρεμματική απόδοση.
+
+Το άρωμα του Μοσχάτου Σάμου είναι ταυτόχρονα πλούσιο και μοναδικό, τόσο που δύσκολα περιγράφεται! Εκφράζεται με μια συγκεκριμένη, σύνθετη αρωματική εικόνα, την οποία συναπαρτίζουν πολλά αρωματικά χαρακτηριστικά. Σε αυτά κυριαρχούν τα φρούτα και τα άνθη και πιο συγκεκριμένα, το φρέσκο σταφύλι, τα άνθη της πορτοκαλιάς και τα ροδοπέταλα. Φυσικά, πάνω απ’ όλα, τα κρασιά από μοσχάτο μυρίζουν... μοσχάτο, αφού η ποικιλία αυτή, περισσότερο από οποιαδήποτε άλλη, εκφράζει στην εντέλεια τα πρωτογενή, λεγόμενα, αρώματα του σταφυλιού. Τα κρασιά που παράγονται από την Ένωση Οινοποιητικών Συνεταιρισμών Σάμου είναι δύο τύπων: γλυκά και ξηρά. Όλα τα γλυκά κρασιά της Σάμου ανήκουν στην κατηγορία Ελεγχόμενης Ονομασίας Προέλευσης (ΟΠΕ), ενώ τα περισσότερα ξηρά είναι Τοπικοί Οίνοι"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="Γλυκά κρασιά"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+        <TextView
+            android:text="Νέκταρ εσοδείας 1975
+
+Η Ένωση έχει αρκετό γλυκό κρασί παλαιότερων εσοδειών για να γεμίσει λίγες σχετικά φιάλες. Το Nectar 1975 είναι ένα από αυτά και αποτελεί «υγρό» κομμάτι της ελληνικής οινικής ιστορίας. Κυκλοφόρησε στην αγορά και παρά τις δεκαετίες του είναι εξαιρετικά καθαρό και ζωντανό, δείχνοντας το φοβερό δυναμικό παλαίωσης των μοσχάτων του νησιού. Αρκετά σκουρόχρωμο, με την πατίνα του χρόνου, είναι εξαιρετικά πολύπλοκο αρωματικά, θυμίζει σταφίδα, βερίκοκο, δαμάσκηνο, πορτοκάλι, καθώς και κανέλα, καραμέλα βουτύρου και νότες καφέ. Η οξύτητα του κρασιού παραμένει αισθητή στο γλυκό και έτσι ισορροπημένο στόμα, που κατορθώνει να παραμένει φινετσάτο, παρά τα χρόνια του. Διακρίνονται αρώματα φρούτων και ξηρών καρπών, ενώ η μακρά επίγευση βεβαιώνει για την ποιότητα αυτού του... «ελιξιρίου». Οι οινόφιλοι δύσκολα θα το θυσίαζαν με κάτι φαγώσιμο, πίνοντάς το σκέτο. Συνδυάζεται όμως θαυμάσια με κρεμώδη επιδόρπια, επιδόρπια με άρωμα πορτοκαλιού κ.ά.       "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="                 "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:text="Anthemis
+
+Σιγά-σιγά, το Anthemis έχει εξελιχθεί σε ένα από τα πιο σπουδαία κρασιά της Ένωσης. Στην όψη έχουμε ένα εντυπωσιακό κρασί με βαθύ πορτοκαλί χρώμα και ανταύγειες σε απόχρωση χαλκού, που μαρτυρούν τη βαθιά παλαίωσή του. Αρώματα μελιού, κερήθρας μελιού, καραμέλας βουτύρου, γλυκών κουταλιού, κερασιών σε αλκοόλ κ.ά., σε φόντο κακάο και σοκολάτας, συνθέτουν ένα ιδιαίτερα πολύπλοκο και πυκνό αρωματικό προφίλ, χτισμένο σε πολλά επίπεδα. Στο στόμα, η θαυμάσια ισορροπία του Anthemis κατορθώνει να διατηρεί σχεδόν ανέπαφη την πρωτογενή φρεσκάδα του με τα τριτογενή αρώματα της παλαίωσης να παίζουν πρώτο βιολί. Τα ευγενή αρώματα του μοσχάτου συνδυάζονται μοναδικά με εκείνα των αποξηραμένων φρούτων και των γοητευτικών αρωμάτων καπνού και της σοκολάτας, για να δώσουν ένα πραγματικά ανεπανάληπτο κρασί. Απαιτεί συντρόφους από το χώρο της υψηλής ζαχαροπλαστικής, ενώ σκέτο, μετά από το τέλος ενός δείπνου, θα συνόδευε με άνεση ένα ελαφρύ πούρο."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="                "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:text="Nectar
+
+Το Nectar είναι, ίσως το πιο ιστορικό κρασί της Ένωσης και ένα κρασί το οποίο πολλοί έχουν μιμηθεί, αλλά κανείς δεν έχει κατορθώσει να αναπαράξει! Το χρώμα του είναι βαθύ κεχριμπαρένιο, με όμορφες πορτοκαλί ανταύγειες. Στη μύτη επικρατούν αρώματα εξέλιξης (παλαίωσης), με τις σταφίδες και τα παλιά κερωμένα έπιπλα σε πρώτο πλάνο. Στο στόμα επιφυλάσσει μια αναπάντεχη φρεσκάδα, που μπορεί να του εξασφαλίσει πρωταγωνιστικό ρόλο στο τραπέζι. Σε συνδυασμό με τα ευγενή αρώματα του καρυδιού συντίθεται ένα αρμονικό και ισχυρό σύνολο, με ιδιαίτερα μακρά επίγευση που θυμίζει αρώματα καπνού, λιβανιού και αμυγδαλωτών. Πρόκειται για ένα κρασί από υπερώριμο, λιαστό σταφύλι, που παλαιώνει για τρία χρόνια σε δρύινα βαρέλια. Μπορεί άνετα να συνοδεύσει πληθωρικά γλυκόξινα φαγητά (π.χ. αγριογούρουνο με κυδώνι, πάπια με πορτοκάλι κ.ά.) και φυσικά, επιδόρπια, όπως είναι ο μπακλαβάς και η καρυδόπιτα."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="    "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:text="  Grand Cru
+
+Το πιο γνωστό ανά την υφήλιο Samos, το Grand Cru προέρχεται από επιλεγμένα αμπελοτόπια και είναι ένα κλασικό Vin Doux Naturel. Το χρώμα του μοιάζει με αυτό του τοπαζιού, ενώ στη μύτη το κρασί εκφράζει με απόλυτη επιτυχία τα χαρακτηριστικά αρώματα του μοσχάτου. Το ίδιο συμβαίνει και στο στόμα, που είναι φρέσκο και ισορροπημένα γλυκό, σε σύγκριση με την οξύτητά του. Είναι ευχάριστο, μα πάνω απ’ όλα ευκολόπιοτο. Παράγεται από καλά ωριμασμένα σταφύλια επιλεγμένων, ημιορεινών αμπελώνων και εκφράζει τόσο την ιδιαίτερη και χαρακτηριστική ποικιλία Μοσχάτο, όσο και τον οινοπαραγωγικό τόπο της Σάμου. Ταιριάζει με ελαφρά γλυκά φρούτων, αλλά προσφέρεται και για πειραματισμούς με «αλμυρά» πιάτα, όπως αυτά με κρέμα γάλακτος και κίτρινα τυριά, με μπεσαμέλ ή ακόμα και κοτόπουλο σούβλας, για το οποίο το κρασί αυτό είναι ένας συνοδός–αποκάλυψη!  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="           "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:text="Φυλλάς
+
+Με ιδιαίτερα λαμπερό, κίτρινο–χρυσαφί χρώμα, το Φυλλάς, από αμπελώνες βιολογικής καλλιέργειας, εκφράζεται με αρώματα στα οποία επικρατούν το αποξηραμένο βερίκοκο και η κομπόστα φρούτων. Το κομψό και αρμονικό στόμα του, με τις γλυκιές νότες μοσχάτου να πρωταγωνιστούν, είναι τοποθετημένο σε ένα αρωματικό φόντο ώριμων φρούτων και ξηρών καρπών. Πιο λεπτεπίλεπτο από το Grand Cru VDN, είναι ένας ιδανικός συνοδός ζαχαροπλαστικής με αφετηρία τα φρέσκα φρούτα, όπως οι τάρτες φρούτων και οι μπαβαρουάζ και τα φρουί κονφί.
+
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="       "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="Vin Doux
+
+Το Vin Doux, που ανήκει στην κατηγορία των Vins de Liqueurs, είναι το πιο δημοφιλές κρασί της Σάμου! Τόσο η όψη, όσο και η οσμή του είναι ιδιαίτερα ελκυστική, με ανοιχτόχρωμο χρυσαφί χρώμα και αρώματα μαρμελάδας βερίκοκου, υπερβολικά ώριμου πεπονιού και νύξεις καραμέλας βουτύρου να δεσπόζουν. Η πρώτη επαφή με το στόμα είναι εκρηκτική, με μια πανδαισία αρωμάτων γεύσης, που περιστρέφεται γύρω από το μοσχάτο σταφύλι, εκφρασμένη με εξαιρετικά φρέσκο τρόπο. Το Vin Doux είναι ένα κρασί που διατηρεί όλο το πρωτογενές άρωμα του μοσχάτου και σε παροτρύνει να το απολαύσεις λαίμαργα, με μεγάλες γουλιές. Είναι ο απόλυτος συνοδός του ώριμου πεπονιού, αλλά προσφέρεται για πολλούς συνδυασμούς φαγητών ή γλυκών."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="        "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:text="Εκκλησιαστικός οίνος
+
+
+Ο εκκλησιαστικός οίνος είναι το κρασί της μετάληψης. Με βαθύ πορτοκαλί χρώμα και αρώματα κεριού και λιβανιού, ανάλογα της παλαίωσής του, θυμίζει και το ρόλο του, αφού χρησιμοποιείται στη Θεία Ευχαριστία. Στο στόμα παρουσιάζεται αρκετά γλυκό, αφού προορίζεται να αραιωθεί με νερό και ξαναφέρνει στο μυαλό ανάλογα αρώματα με αυτά της μύτης, ισορροπώντας ανάμεσα σε αρώματα παλαίωσης και αποξηραμένων φρούτων."
+
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="         "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Ξηρά κρασιά"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="           "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Golden Samena
+
+Το κρασί αυτό έχει μια ιδιαίτερα ελκυστική όψη, με λαμπερό και ανοιχτόχρωμο καναρινί χρώμα και πρασινωπές ανταύγειες. Αρωματικά είναι πλούσιο και γεμάτο, θυμίζοντας την οσμή ώριμων, λευκόσαρκων φρούτων, όπως ροδάκινο, βερίκοκο και πεπόνι, που απλώνονται σε ένα εξαιρετικό φόντο διακριτικής έκφρασης του μοσχάτου. Εξαιρετικά φρουτώδες παρουσιάζεται στο στόμα και ισορροπεί υπέροχα μεταξύ ξηρού και γλυκού, σε ένα παιχνίδισμα που θα σαγηνέψει κάθε φίλο του κρασιού. Αν και στην επίγευση αφήνει μια ανεπαίσθητη γλύκα, η φυσιολογική φρεσκάδα του σταφυλιού υπερτερεί και δημιουργεί, τελικά, ένα αρμονικό σύνολο. Πρόκειται για ένα κρασί που συνοδεύει έξοχα κουζίνες Άπω Ανατολής, αλλά και πιάτα της διεθνούς ή και της ελληνικής δημιουργικής κουζίνας."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="        "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27" />
+
+        <TextView
+            android:text="Ψηλές Κορφές
+Ιδιαίτερα ανοιχτόχρωμο, πρασινοκίτρινο και λαμπερό, το χρώμα τής πιο πρόσφατης δημιουργίας της Ένωσης σηματοδοτεί ένα κρασί υπερσύγχρονο για τον απαιτητικό οινόφιλο που αναζητά το ξεχωριστό. Το σταφύλι παραγωγής του προέρχεται αποκλειστικά από τους καλύτερους ορεινούς αμπελώνες του νησιού, σε παλιές χτιστές πεζούλες και υψόμετρο μέχρι 800 μέτρα! Έχει έτσι φινετσάτο χαρακτήρα, όπου τα τυπικά, ανθώδη και φρουτώδη αρώματα του μοσχάτου εκφράζονται εκλεπτυσμένα. Στο στόμα συναντάμε τον χαρακτήρα του μοσχάτου, αλλά και πάλι κομψά, ενώ η γεύση του έχει δροσιστική οξύτητα και ικανοποιητική διάρκεια. Οι Ψηλές Κορφές είναι ένα αρωματικό, αλλά όχι κραυγαλαίο, κρασί, που πίνεται κάλλιστα μόνο του και ως απεριτίφ, αλλά μπορεί να συνοδεύσει και διακριτικά αρωματικά πρώτα πιάτα, εξίσου εκλεπτυσμένα με αυτό."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="             "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView28" />
+
+        <TextView
+            android:text="Samena
+
+Το γνωστό Samena είναι ένα κρασί με ανοιχτόχρωμο κίτρινο, λαμπερό χρώμα και διακριτικά ανθώδη αρώματα, που δεν επισκιάζονται από εκείνα του μοσχάτου. Στο στόμα, είναι ένα κλασικά μεσογειακό κρασί, που εκφράζεται με πάχος και λιπαρότητα. Ο σχετικά ισχυρός γευστικός χαρακτήρας του είναι που το κάνει καλό συνοδό για διάφορα μαγειρευτά φαγητά, ή φαγητά φούρνου (π.χ. παστίτσιο, γιουβαρλάκια αυγολέμονο, χορτόπιτες κ.ά.), από το παραδοσιακό ρεπερτόριο της ελληνικής κουζίνας."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="           "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView30" />
+
+        <TextView
+            android:text="Αγέρι του Αιγαίου
+
+Με όμορφο, κιτρινοπράσινο χρώμα και έντονες πρασινωπές ανταύγειες, το κρασί αυτό είναι ιδιαίτερα λαμπερό και ελκυστικό. Τα χαρακτηριστικά αρώματα του μοσχάτου επικρατούν στη μύτη, αλλά έχουν ως φόντο τους αρώματα εξωτικών φρούτων και λουλουδιών. Είναι ένα φρέσκο, ελαφρύ και ευχάριστο κρασί, με φρουτώδη χαρακτήρα και ζωντανή οξύτητα, που το καθιστά ιδανικό, ακόμα και για απεριτίφ ή για ψαρομεζέδες"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView31"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:text="            "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32" />
+
+        <TextView
+            android:text="Δρυούσα
+
+Η Δρυούσα είναι ένα ανοιχτόχρωμο κιτρινοπράσινο κρασί, που εκφράζει με ελαφρύ και κομψό τρόπο τα τόσο χαρακτηριστικά αρώματα της ποικιλίας Μοσχάτο. Στο στόμα είναι ευκολόπιοτο και ισορροπημένο, παίζοντας ανάμεσα στο αλκοόλ και στην οξύτητα, εκφράζοντας απλώς το χαρακτήρα της ποικιλίας. Είναι ένα κρασί–συνοδός του καθημερινού τραπεζιού, όσων πιάτων ταιριάζουν με λευκά κρασιά. Αποτελεί, για τους πολυπληθείς οπαδούς των λευκών κρασιών, μια ελαφρά αρωματική και ευχάριστη γευστικά πρόταση, που δίνει λύση στο καθημερινό ερώτημα «τι θα πιω;»! "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView33"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    </LinearLayout>
+</ScrollView>

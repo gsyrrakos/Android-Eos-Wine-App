@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.Synaiterismos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                app:srcCompat="@drawable/mouseio"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:text="ΣΥΝΕΤΑΙΡΙΣΜΟΣ"
+                android:textSize="@dimen/nav_header_vertical_spacing"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <TextView
+                android:text="ΙΣΤΟΡΙΚΟ"
+
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text5" />
+            <TextView
+                android:text="
+
+H Ένωση Οινοποιητικών Συνεταιρισμών Σάμου (ΕΟΣΣ) ιδρύθηκε το 1934, με τη συμμετοχή 25 τοπικών συνεταιρισμών, που αντιπροσωπεύουν όλους τους καλλιεργητές αμπέλου του νησιού.
+
+Με χαρακτήρα συνδικαλιστικής οργάνωσης, στάθηκε από την αρχή ουσιαστικός αρωγός προς τους αγρότες, για την προστασία των δικαιωμάτων τους απέναντι στους εμπόρους.
+
+Από την ίδρυσή της, έως και σήμερα, η ΕΟΣΣ συλλέγει το σταφύλι και παράγει το κρασί, στα δύο οινοποιεία της στο Μαλαγάρι και στο Καρλόβασι. Στη συνέχεια το διαθέτει, χύμα ή εμφιαλωμένο, στην Ελλάδα και στον υπόλοιπο κόσμο.
+
+Οι εξαγωγές είναι πολύ σημαντικές και καλύπτουν το 80% της ετήσιας παραγωγής, που είναι περίπου 7.000 τόνοι κρασί. H Γαλλία από μόνη της εισάγει το 60% της παραγωγής του νησιού, ενώ άλλες χώρες που εισάγουν σημαντικές ποσότητες σαμιακών οίνων είναι η Αγγλία, η Αυστραλία ,η Αυστρία, το Βέλγιο, η Γαλλία, η Γερμανία, η Δανία, η Ελβετία, οι ΗΠΑ, η Ιταλία, ο Καναδάς, η Ολλανδία, η Σιγκαπούρη, η Σουηδία, η Φινλανδία, οι Σκανδιναβικές χώρες και, προσφάτως, χώρες της Άπω Aνατολής.
+
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text9"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+            <TextView
+                android:text="ΦΙΛΟΣΟΦΙΑ"
+
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text6" />
+            <TextView
+                android:text="Με μοναδικό, για την Ελλάδα, τρόπο, η Ένωση Ονοποιητικών Συνεταιρισμών Σάμου υποστηρίζει το εισόδημα των αμπελοκαλλιεργητών και προβάλει, μέσω του κρασιού, τη Σάμο σε όλη την υφήλιο. Όλες οι προσπάθειές της ξεκινούν από το σταφύλι των αμπελοκαλλιεργητών της και καταλήγουν πάλι σε αυτούς.
+
+Στόχος της ΕΟΣΣ είναι η ταύτιση του ονόματός της με προϊόντα και υπηρεσίες υψηλής και σταθερής ποιότητας. Βασική της επιδίωξη είναι η ισχυροποίηση της θέσης της, μέσω της αναγνωρισιμότητας των προϊόντων της, της αύξησης του μεριδίου της στην παγκόσμια αγορά οίνου και της συνεχούς επέκτασης σε περισσότερες αγορές. Έτσι, θα επιτευχθεί η συνέχιση της ανοδικής πορείας και η αύξηση των πωλήσεων, με απώτερο σκοπό την επίτευξη καλύτερης και συνεχώς αυξανόμενης τιμής για το σταφύλι των αμπελοκαλλιεργητών-μελών της.
+"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text7"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:text="ΜΕΛΗ - ΔΙΟΙΚΗΤΙΚΟ ΣΥΜΒΟΥΛΙΟ"
+                android:textSize="@dimen/nav_header_vertical_spacing"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex" />
+            <TextView
+                android:text="Μέλη της Ένωσης Ονοποιητικών Συνεταιρισμών Σάμου είναι, υποχρεωτικά, όλοι οι υφιστάμενοι Οινοποιητικοί Συνεταιρισμοί του νομού Σάμου, που ιδρύθηκαν ή θα ιδρυθούν, βάσει του Α.Ν. 6085/1934. Οι παραγωγοί που ανήκουν στους Οινοποιητικούς Συνεταιρισμούς είναι στο σύνολό τους 2.847, εκ των οποίων οι 40 ασχολούνται με τη βιολογική καλλιέργεια.
+
+Κάθε Οινοποιητικός Συνεταιρισμός αντιπροσωπεύεται στην Ένωση με ένα έως πέντε μέλη εκλεγμένων αντιπροσώπων. Ο αριθμός τους καθορίζεται ανάλογα με την παραγωγή σταφυλών που παραδίδουν τα φυσικά μέλη του Οινοποιητικού Συνεταιρισμού στην Ένωση κατά την τελευταία τριετία. Παραγωγή μέχρι 100.000 κιλά αντιστοιχεί σε έναν αντιπρόσωπο, παραγωγή από 100.001 μέχρι 200.000 κιλά σε δύο αντιπροσώπους κ.ο.κ. και μέχρι πέντε αντιπροσώπους.
+
+Οι αντιπρόσωποι εκπροσωπούν τον Συνεταιρισμό σε όλες τις σχέσεις του με την Ένωση, μέσα στο πλαίσιο των αποφάσεων της Γενικής Συνέλευσης και του Διοικητικού Συμβουλίου του εκπροσωπούμενου Συνεταιρισμού. Στη Γενική Συνέλευση, έτσι, μετέχουν δια των αντιπροσώπων τους όλα τα μέλη της Ένωσης. Με τη συμμετοχή των αντιπροσώπων στη γενική συνέλευση εκλέγονται οι διοικητικοί σύμβουλοι (Δ.Σ.), που με τη σειρά τους εκλέγουν τον πρόεδρο της ΕΟΣΣ Οι διοικητικοί σύμβουλοι αναφέρονται, μία ή δύο φορές το χρόνο, στη γενική συνέλευση, που είναι το ανώτατο Όργανο της Ένωσης.
+
+Πρόεδρος: Ιωάννης Σκούτας
+
+Γενικός Διευθυντής: Ηλίας Καριώτογλου
+
+Η ΕΟΣΣ απασχολεί 80 άτομα."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tex0"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.icsd14193.myapplication14.oinopeiio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/oino"
+            android:id="@+id/imageView4"
+            android:layout_weight="0.29" />
+
+        <TextView
+            android:text="ΟΙΝΟΠΟΙΕΙΟ"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="@dimen/nav_header_vertical_spacing"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34" />
+
+        <TextView
+            android:text="H Ένωση διαθέτει δύο σημαντικές οινοποιητικές εγκαταστάσεις, η κάθε μια με τη δική της ιστορία.
+
+Tο οινοποιείο στο Kαρλόβασι εξυπηρετεί τα αμπελοχώρια που βρίσκονται στο βόρειο τμήμα του νησιού, ενώ εκείνο στη θέση Mαλαγάρι, λίγο έξω από το Bαθύ, εξυπηρετεί το υπόλοιπο νησί, ενώ φιλοξενεί και τα κεντρικά γραφεία της Ένωσης.
+
+Στο Mαλαγάρι θα βρείτε και το Mουσείο Σαμιακού Oίνου που εγκαινιάστηκε το 2005 και φιλοξενεί σπουδαία εκθέματα για την οινική ιστορία του νησιού. Kαι τα δύο οινοποιεία της EOΣΣ δέχονται επισκέπτες, τις εργάσιμες ημέρες και ώρες."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.96"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+</FrameLayout>

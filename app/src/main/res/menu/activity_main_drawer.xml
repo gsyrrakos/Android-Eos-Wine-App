@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+
+            android:title="AΞΙΟΛΟΓΗΣΗ" />
+        <item
+            android:id="@+id/suneterismos"
+            android:title="ΣΥΝΕΤΑΙΡΙΣΜΟΣ" />
+        <item
+            android:id="@+id/ampelones"
+
+            android:title="ΑΜΠΕΛΩΝΕΣ" />
+        <item
+        android:id="@+id/poikilia"
+
+        android:title="ΠΟΙΚΙΛΙΑ" />
+
+        <item
+            android:id="@+id/oinopieio"
+            android:title="ΟΙΝΟΠΟΙΕΙΟ" />
+
+        <item
+            android:id="@+id/mousio"
+
+            android:title="ΜΟΥΣΕΙΟ" />
+
+        <item
+            android:id="@+id/proin"
+
+            android:title="ΠΡΟΙΟΝΤΑ" />
+
+
+        <item
+            android:id="@+id/diktyo"
+
+            android:title="ΔΙΚΤΥΟ" />
+
+
+
+        <item
+            android:id="@+id/brabeyseis"
+
+            android:title="ΒΡΑΒΕΥΣΕΙΣ" />
+
+
+        <item
+            android:id="@+id/nea"
+
+            android:title="ΝΕΑ" />
+
+
+        <item
+            android:id="@+id/epoik"
+
+            android:title="ΕΠΙΚΟΙΝΩΝΙΑ" />
+
+    </group>
+
+
+
+</menu>
